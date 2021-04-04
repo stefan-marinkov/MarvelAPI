@@ -1,0 +1,15 @@
+.Cards {
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-self: center;
+    margin: 1% auto;
+}
+
+@media screen and (max-width: 800px) {
+    .Cards {
+        width: 50%;
+    }
+}

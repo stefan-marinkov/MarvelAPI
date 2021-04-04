@@ -1,0 +1,35 @@
+.FilteredHeros {
+    width: 30%;
+    min-height: 200px;
+    max-height: 500px;
+    position: sticky;
+    top: 17%;
+    border-left: 1px solid wheat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .clearList {
+        width: 80%;
+        height: 2rem;
+        border-radius: 5px;
+        margin: auto;
+        position: sticky;
+        bottom: 90%;
+        &:hover {
+            transform: scale(1.1);
+            transition: all .4s ease;
+            background: gray;
+            color: wheat;
+            cursor: pointer;
+        }
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .FilteredHeros {
+        position: sticky;
+        top: 12%;
+        min-height: 800px;
+        width: 40%;
+    }
+}

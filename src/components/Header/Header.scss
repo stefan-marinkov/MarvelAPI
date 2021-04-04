@@ -1,0 +1,56 @@
+.Header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 20;
+    .top {
+        width: 95%;
+        background: rgba(245, 222, 179, .2);
+        color: wheat;
+        h2 {
+            font-size: 2rem;
+            margin: 1% 2%;
+        }
+    }
+    .search {
+        width: 95%;
+        background: rgba(245, 222, 179, .2);
+        color: wheat;
+        padding: 1%;
+        display: flex;
+        input {
+            width: 35%;
+            text-align: center;
+        }
+        button {
+            width: 15%;
+            margin-left: 1%;
+            border-radius: 5px;
+            &:hover {
+                background: gray;
+                cursor: pointer;
+                color: wheat;
+                transform: scale(1.05);
+                transition: all .4s ease;
+            }
+        }
+        h2 {
+            margin-left: auto;
+            margin-right: 5%;
+        }
+    }
+}
+
+@media all and (max-width: 600px) {
+    .search {
+        input {
+            width: 20%;
+        }
+        h2 {
+            font-size: 1.1rem;
+        }}
+}

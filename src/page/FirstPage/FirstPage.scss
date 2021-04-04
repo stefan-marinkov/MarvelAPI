@@ -1,0 +1,29 @@
+.FirstPage {
+    width: 95%;
+    margin: 5% auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    a {
+    .myBtn {
+        position: fixed;
+        left:   .5%;
+        bottom: .5%;
+        height: 2rem;
+        width: 2rem;
+        border-radius: 50%;
+        margin: auto;
+        &:hover {
+            transform: scale(1.1);
+            transition: all .4s ease;
+            background: gray;
+            cursor: pointer;
+            color: wheat;
+        }
+    text-decoration: none;
+    }
+}
+
+}

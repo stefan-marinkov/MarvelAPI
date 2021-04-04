@@ -1,0 +1,53 @@
+.Fhero {
+    width: 90%;
+    height: 75px;
+    color: wheat;
+    box-shadow: 2px -1px 2px 1px wheat;
+    padding: 1%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(245, 222, 179, .2);
+    margin: .5rem 5%;
+        &:hover {
+            transform: scale(1.05);
+            background: rgba(245, 222, 179, .7);
+            transition: all .4s ease;
+            color: black;
+        }
+    img {
+        height: 100%;
+        margin: 1%;
+    }
+    button {
+        margin: 1%;
+        padding: 1%;
+        &:hover {
+            transform: scale(1.1);
+            transition: all .4s ease;
+            background: gray;
+            color: wheat;
+            cursor: pointer;
+        }
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .Fhero {
+        flex-direction: column;
+        width: 80%;
+        height: 125px;
+        margin-top: 10%;
+        z-index: 50;
+        img {
+            height: 40%;
+        }
+        h4 {
+            margin: 2%;
+        }
+        button {
+            margin: 1%;
+        }
+    }
+}

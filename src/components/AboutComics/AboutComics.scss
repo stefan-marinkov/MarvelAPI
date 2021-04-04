@@ -1,0 +1,38 @@
+.AboutComics {
+    background: wheat;
+    width: 80%;
+    display: flex;
+    min-height: 300px;
+    .imgBck {
+        width: 30%;
+        min-height: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        img {
+            width: 100%;
+            padding: 2%;
+        }
+        button {
+            width: 80%;
+            margin: 5% auto;
+            &:hover {
+                cursor: pointer;
+                background: gray;
+                color: wheat;
+                transform: scale(1.1);
+                transition: all .4s ease;
+            }
+        }
+    }
+    .comAb {
+        width: 60%;
+        min-height: 300px;
+        display: flex;
+        flex-direction: column;
+        margin: 1% auto;
+        color: black;
+        padding: 1%;
+        justify-content: space-between;
+    }
+}

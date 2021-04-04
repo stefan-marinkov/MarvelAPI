@@ -1,0 +1,100 @@
+.Comics {
+    position: relative;
+    margin: 2%;
+    transition-duration: 2s;
+	transform-style: preserve-3d;
+    &:hover {
+        border-radius: 5px;
+        transform: scale(1.1);
+        transform: rotateY(180deg);
+	    transition-duration: 2s;
+        background: rgb(245, 222, 179);
+    }
+    .divSorry {
+        color: wheat;
+    }
+
+    .front {
+        position: absolute;
+        transform: rotateY(0deg);
+        backface-visibility: hidden;
+        width: 200px;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        margin: 2%;
+        justify-content: space-evenly;
+        align-items: center;
+        color: black;
+        h3 {
+            width: 100%;
+            font-size: 1.2rem;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            color: black;
+            opacity: .92;
+        }
+        img {
+            width: 60%;
+            padding: 5%;
+            padding-bottom: 0;
+        }
+        .num {
+            width: 50%;
+            height: 20%;
+            text-align: start;
+            padding-left: 1%;
+            padding-top: 10%;
+            position: absolute;
+            bottom: 0;
+            background: gray;
+            color: wheat;
+            opacity: .92;
+        }
+    }
+    
+    .back {
+        transform: rotateY(180deg);
+        backface-visibility: hidden;
+        width: 200px;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin: 2%;
+        align-items: center;
+        h5 {
+            width: 90%;
+            font-size: .8rem;
+            word-break: break-all;
+            color: black;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            margin: 5% auto;
+        }
+        p {
+            width: 95%;
+            overflow: hidden;
+            color: black;
+            margin: 5%;
+            padding: 2%;
+        }
+        button {
+            height: 2rem;
+            width: 80%;
+            border-radius: 5px;
+            margin: 0 auto;
+            &:hover {
+                background: gray;
+                color: wheat;
+                transition: all .4s ease;
+                cursor: pointer;
+            }
+        }
+    }
+
+    
+}
+
