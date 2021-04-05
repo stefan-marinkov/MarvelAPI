@@ -45,12 +45,14 @@
     }
 }
 
-@media all and (max-width: 600px) {
+
+@media all and (max-width: 800px) {
     .search {
         input {
-            width: 20%;
+            width: 20% !important; 
         }
         h2 {
             font-size: 1.1rem;
-        }}
+        }
+    }
 }
