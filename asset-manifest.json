@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/stefan-marinkov/MarvelAPI/static/css/main.4134631a.chunk.css",
+    "main.js": "/stefan-marinkov/MarvelAPI/static/js/main.497d1467.chunk.js",
+    "main.js.map": "/stefan-marinkov/MarvelAPI/static/js/main.497d1467.chunk.js.map",
+    "runtime-main.js": "/stefan-marinkov/MarvelAPI/static/js/runtime-main.b1167d90.js",
+    "runtime-main.js.map": "/stefan-marinkov/MarvelAPI/static/js/runtime-main.b1167d90.js.map",
+    "static/js/2.19d836ca.chunk.js": "/stefan-marinkov/MarvelAPI/static/js/2.19d836ca.chunk.js",
+    "static/js/2.19d836ca.chunk.js.map": "/stefan-marinkov/MarvelAPI/static/js/2.19d836ca.chunk.js.map",
+    "index.html": "/stefan-marinkov/MarvelAPI/index.html",
+    "static/css/main.4134631a.chunk.css.map": "/stefan-marinkov/MarvelAPI/static/css/main.4134631a.chunk.css.map",
+    "static/js/2.19d836ca.chunk.js.LICENSE.txt": "/stefan-marinkov/MarvelAPI/static/js/2.19d836ca.chunk.js.LICENSE.txt",
+    "static/media/App.scss": "/stefan-marinkov/MarvelAPI/static/media/avengers.b86d97f3.jpg",
+    "static/media/logo-marvel.1ccd7fe6.png": "/stefan-marinkov/MarvelAPI/static/media/logo-marvel.1ccd7fe6.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b1167d90.js",
+    "static/js/2.19d836ca.chunk.js",
+    "static/css/main.4134631a.chunk.css",
+    "static/js/main.497d1467.chunk.js"
+  ]
+}
